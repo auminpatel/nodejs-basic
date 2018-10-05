@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+</html>
+    <head>
+        <title>Node.js-MySQL</title>
+        <link href="/../stylesheets/style.css" rel="stylesheet">
+        <script type="text/javascript" src="/../javascripts/all.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div class="page-header"><h2><%=page_title%></h2></div>
+            <div class="page-container">
+
+
+        <div class="page-data">
+            
+            <form method="post" action="/add">
+                <table cellpadding="11">
+                <tr>
+                    <td class="label">FirstName</td><td>: <input type="text" name="fname" required></td>
+                 </tr>
+                 <tr>
+                    <td class="label">LastName</td><td >: <input type="text" name="lname" required></td>
+                </tr>
+                <tr>
+                    <td class="label">Email</td><td>: <input type="text" name="email" required></td>
+                 </tr>
+                  <tr>
+                    <td class="label">Phone</td><td>: <input type="text" name="phone" required></td>
+                 </tr>
+                 <tr>
+                    <td class="label">City</td><td>: <input type="text" name="city" required></td>
+                 </tr>
+                 <tr>
+                    <td class="label"></td>
+                    <td>
+                        &nbsp; <input type="submit" name="submit" value="Save">
+                       <input type="button" name="cancel" value="Cancel" class="cancel" onClick="cancelAdd()">
+                    </td>
+                 </tr>
+                </table>
+            </form>
+            
+        </div>
+        
+    </div>
+</div>
+</body>
+</html>
+
